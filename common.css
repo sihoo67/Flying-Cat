@@ -1,0 +1,447 @@
+#ac-globalfooter .ac-gf-footer {
+    padding-bottom: 11px !important;
+}
+
+#ac-globalfooter p.requirement a {
+    text-decoration: underline;
+}
+
+.icon-chevronright:after, .more:after, .icon-external:after {
+    top: -.08em;
+}
+
+.icon-wrapper .icon, .icon-wrapper .icon-after:after, .icon-wrapper .icon-before:before, .icon-wrapper .more:not(.icon-before):after {
+    position: relative;
+}
+
+.xsmall {
+    display: none;
+}
+
+@media only screen and (max-width: 385px) {
+    .xsmall {
+        display: block;
+    }
+}
+
+br.medium {
+    display: none;
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) {
+    br.medium {
+        display: block;
+    }
+}
+
+br.small {
+    display: none;
+}
+
+@media only screen and (max-width: 734px) {
+    br.small {
+        display: block;
+    }
+}
+
+[data-module-template] [data-unit-id] .unit-wrapper .footnote a:not(.unit-link):hover {
+    text-decoration: none;
+}
+
+/* ribbon */
+.main [data-module-template="ribbon"] .iphone-ti-ribbon-copy sup {
+    font-size: 14px;
+    top: 0;
+}
+
+.main [data-module-template="ribbon"] .iphone-ti-ribbon-copy {
+    max-width: 100%;
+    color: #1d1d1f;
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="ribbon"] .iphone-ti-ribbon-copy {
+        width: 82.5%;
+        max-width: none;
+    }
+}
+
+/* bts ribbon*/
+.main [data-module-template="ribbon"] [data-unit-id="back-to-school"] .bts-ribbon-copy sup a{
+    text-decoration: none;
+}
+
+.main [data-module-template="ribbon"] .typography-caption {
+    font-size: 14px;
+}
+
+.main [data-module-template="ribbon"] .iphone-ti-ribbon-copy sup {
+    top: -.5em;
+    position: relative;
+    font-size: .6em;
+    vertical-align: baseline;
+}
+.main [data-module-template="ribbon"] .iphone-ti-ribbon-copy {
+    color: #1d1d1f;
+}
+
+.main [data-module-template="ribbon"] .iphone-ti-ribbon-copy sup a {
+    text-decoration: none;
+    color: #1d1d1f;
+}
+
+.main [data-module-template="ribbon"] .iphone-ti-ribbon-copy .ribbon-link {
+    color: #06c;
+}
+
+.main [data-module-template="ribbon"] .iphone-ti-ribbon-copy sup a:hover {
+    color: #06c;
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="back-to-school"] .section-content sup{
+    top:-.2em;
+    font-size: 0.9em;
+}
+
+.ribbon-link.more {
+    display: inline-block;
+}
+
+.icon-chevronright:after, .more:after, .icon-external:after {
+    top: -.08em;
+}
+
+.icon-wrapper .icon, .icon-wrapper .icon-after:after, .icon-wrapper .icon-before:before, .icon-wrapper .more:not(.icon-before):after {
+    position: relative;
+}
+
+br.medium {
+    display: none;
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) {
+    br.medium {
+        display: block;
+    }
+}
+
+br.small {
+    display: none;
+}
+
+@media only screen and (max-width: 734px) {
+    br.small {
+        display: block;
+    }
+}
+
+[data-module-template] [data-unit-id] .unit-wrapper .footnote a:not(.unit-link):hover {
+    text-decoration: none;
+}
+
+
+@supports (height: calc(var(--global-nav-collective-height) + var(--content-height) + 12px)) {
+    .main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] {
+        --columns-for-analytics-only: 1;
+        --safe-area-inset-lt: 0px;
+        --safe-area-inset-lt: env(safe-area-inset-left);
+        --safe-area-inset-rt: 0px;
+        --safe-area-inset-rt: env(safe-area-inset-right);
+        --safe-area-inset-lt: 0px;
+        --safe-area-inset-lt: env(safe-area-inset-left);
+        --safe-area-inset-rt: 0px;
+        --safe-area-inset-rt: env(safe-area-inset-right);
+        --safe-area-inset-lt: 0px;
+        --safe-area-inset-lt: env(safe-area-inset-left);
+        --safe-area-inset-rt: 0px;
+        --safe-area-inset-rt: env(safe-area-inset-right);
+        --safe-area-inset-lt: 0px;
+        --safe-area-inset-lt: env(safe-area-inset-left);
+        --safe-area-inset-rt: 0px;
+        --safe-area-inset-rt: env(safe-area-inset-right);
+        }
+}
+
+
+@supports (height: calc(var(--global-nav-collective-height) + var(--content-height) + 12px)) {
+    @media screen and (max-width: 1440px) and (min-width: 1069px) {
+        .main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] {
+            --content-height: auto;
+            --columns: 1;
+            --gutter-width: 0;
+            --gutter-half-width: 0;
+            --gutter-and-half-width: 0;
+            --gutter-color: #fff;
+            --double-edge-border-width: 0px;
+            --edge-border-width: 0px;
+            --background-color: #fbfbfd;
+            --text-color: #1d1d1f;
+            --edge-border-width-fallback: 0px;
+        }
+    }
+
+    @media screen and (max-width: 1068px) and (min-width: 735px) {
+        .main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] {
+            --content-height: auto;
+            --columns: 1;
+            --gutter-width: 0;
+            --gutter-half-width: 0;
+            --gutter-and-half-width: 0;
+            --gutter-color: #fff;
+            --double-edge-border-width: 0px;
+            --edge-border-width: 0px;
+            --background-color: #fbfbfd;
+            --text-color: #1d1d1f;
+            --edge-border-width-fallback: 0px;
+        }
+    }
+
+    @media screen and (max-width: 734px) and (min-width: 0px) {
+        .main [data-module-template="ribbon"] {
+            --content-height: 500px;
+            --columns: 1;
+            --gutter-width: 12px;
+            --gutter-half-width: 6px;
+            --gutter-and-half-width: 18px;
+            --gutter-color: #fff;
+            --double-edge-border-width: 0px;
+            --edge-border-width: 0px;
+            --background-color: #fbfbfd;
+            --text-color: #1d1d1f;
+            --edge-border-width-fallback: 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 1068px) and (min-width: 735px) {
+    .main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] [data-unit-id], .main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] .module-content {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"], .main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] [data-unit-id], .main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] .module-content {
+        height: auto;
+    }
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] {
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] .section-content {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] .iphone-ti-ribbon-copy {
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 0;
+    width: 95%;
+    color: #1d1d1f;
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="ribbon"] .iphone-ti-ribbon-copy {
+        width: 82.5%;
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="ribbon"] [data-unit-id="iphone-trade-in"] .iphone-ti-ribbon-copy.trade-in {
+        width: 87.5%;
+        max-width: 405px;
+        padding: 10px 0;
+    }
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] {
+    background-color: #FFF;
+    text-align: center
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] {
+    width: 100%
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] [data-unit-id], .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .module-content {
+    width:100%
+}
+
+@media screen and (max-width: 1440px) and(min-width: 1069px) {
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] [data-unit-id], .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .module-content {
+        height:auto
+    }
+}
+
+@media screen and (max-width: 734px) and(min-width: 0px) {
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] [data-unit-id], .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .module-content {
+        height:auto
+    }
+}
+
+@media screen and (max-width: 1441000px) and(min-width: 1441px) {
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] [data-unit-id], .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .module-content {
+        height:auto
+    }
+}
+
+@media screen and (max-width: 1068px) and(min-width: 735px) {
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] [data-unit-id], .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .module-content {
+        height:auto
+    }
+}
+
+@supports (height: calc(var(--global-nav-collective-height) + var(--content-height) + 12px)) {
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] {
+        --columns-for-analytics-only: 1;
+        --safe-area-inset-lt: 0px;
+        --safe-area-inset-lt: env(safe-area-inset-left);
+        --safe-area-inset-rt: 0px;
+        --safe-area-inset-rt: env(safe-area-inset-right);
+        --safe-area-inset-lt: 0px;
+        --safe-area-inset-lt: env(safe-area-inset-left);
+        --safe-area-inset-rt: 0px;
+        --safe-area-inset-rt: env(safe-area-inset-right);
+        --safe-area-inset-lt: 0px;
+        --safe-area-inset-lt: env(safe-area-inset-left);
+        --safe-area-inset-rt: 0px;
+        --safe-area-inset-rt: env(safe-area-inset-right);
+        --safe-area-inset-lt: 0px;
+        --safe-area-inset-lt: env(safe-area-inset-left);
+        --safe-area-inset-rt: 0px;
+        --safe-area-inset-rt: env(safe-area-inset-right)
+    }
+
+    @media screen and (max-width: 1440px) and(min-width: 1069px) {
+        .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] {
+            --content-height: auto;
+            --columns: 1;
+            --gutter-width: 0;
+            --gutter-half-width: 0;
+            --gutter-and-half-width: 0;
+            --gutter-color: #fff;
+            --double-edge-border-width: 0px;
+            --edge-border-width: 0px;
+            --background-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --edge-border-width-fallback: 0px
+        }
+    }
+
+    @media screen and (max-width: 734px) and(min-width: 0px) {
+        .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] {
+            --content-height: auto;
+            --columns: 1;
+            --gutter-width: 0;
+            --gutter-half-width: 0;
+            --gutter-and-half-width: 0;
+            --gutter-color: #fff;
+            --double-edge-border-width: 0px;
+            --edge-border-width: 0px;
+            --background-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --edge-border-width-fallback: 0px
+        }
+    }
+
+    @media screen and (max-width: 1441000px) and(min-width: 1441px) {
+        .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] {
+            --content-height: auto;
+            --columns: 1;
+            --gutter-width: 0;
+            --gutter-half-width: 0;
+            --gutter-and-half-width: 0;
+            --gutter-color: #fff;
+            --double-edge-border-width: 0px;
+            --edge-border-width: 0px;
+            --background-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --edge-border-width-fallback: 0px
+        }
+    }
+
+    @media screen and (max-width: 1068px) and(min-width: 735px) {
+        .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] {
+            --content-height: auto;
+            --columns: 1;
+            --gutter-width: 0;
+            --gutter-half-width: 0;
+            --gutter-and-half-width: 0;
+            --gutter-color: #fff;
+            --double-edge-border-width: 0px;
+            --edge-border-width: 0px;
+            --background-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --edge-border-width-fallback: 0px
+        }
+    }
+
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"].standalone-module {
+        border-bottom: var(--gutter-width) solid var(--gutter-color);
+        height: calc(var(--content-height) + var(--global-nav-collective-height) + var(--gutter-width));
+        top: calc(var(--global-nav-collective-height) * -1);
+        margin-bottom: calc((var(--global-nav-collective-height)) * -1);
+        width: calc(100% - var(--double-edge-border-width) - var(--safe-area-inset-lt) - var(--safe-area-inset-rt));
+        left: calc(var(--edge-border-width) + var(--safe-area-inset-lt))
+    }
+
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"].standalone-module .module-content {
+        padding-top: var(--global-nav-collective-height);
+        background-color: var(--background-color);
+        color:var(--text-color)
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] {
+        height: auto
+    }
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .section-content {
+    margin-right: auto;
+    margin-left: auto
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .trade-in-2024-ribbon-copy {
+    font-size: 14px;
+    display: inline-block;
+    padding:16px 0
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .trade-in-2024-ribbon-copy {
+        max-width:280px
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .trade-in-2024-ribbon-copy {
+        max-width:450px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .trade-in-2024-ribbon-copy {
+        max-width: 280px
+    }
+}
+
+.main [data-module-template="ribbon"] [data-unit-id="trade-in-2024"] .trade-in-2024-ribbon-copy .footnote-link {
+    text-decoration:underline
+}
+
+.main [data-module-template="promos"] [data-unit-id] .unit-copy-wrapper .cta-links .button:lang(ko) {
+    line-height: 1.45;
+}
+
+@media only screen and (max-width: 734px) {
+    .main [data-module-template="heroes"] [data-unit-id] .unit-copy-wrapper>*.cta-links .button:lang(ko) {
+        line-height: 1.45;
+    }    
+}
